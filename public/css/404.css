@@ -1,0 +1,18 @@
+.error-image{
+    display:block;
+    margin: 60px auto;
+}
+
+.error-msg{
+    text-align:center;
+    text-transform:capitalize;
+    color:#383838;
+}
+
+.error-msg a{
+    color: #383838;
+}
+
+.error-msg a:hover{
+    color: #134df7;
+}
