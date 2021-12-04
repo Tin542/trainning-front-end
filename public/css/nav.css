@@ -63,6 +63,10 @@
     border-bottom-right-radius: 10px;
 }
 
+.search-btn:hover{
+    background: #7f7f7f;
+}
+
 .search-box::placeholder{
     color: #a9a9a9l;
 }

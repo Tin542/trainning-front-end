@@ -14,3 +14,34 @@
 .heading span{
     font-weight: 700;
 }
+
+.paging{
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+}
+
+.paging-link{
+    width: 40px;
+    height: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #383838;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.paging-link:hover{
+    background: #383838;
+    color: #fff;
+}
+
+.paging-link.active{
+    background: #383838;
+    color: #fff;
+}

@@ -6,7 +6,7 @@ const createNav = () => {
             <div class="nav-items">
                 <div class="search">
                     <input type="text" class="search-box" placeholder="Search...">
-                    <button type="button" class="search-btn">search</button>
+                    <button type="button" class="search-btn" onclick="searchPage()">search</button>
                 </div>
                 <a href="#"><img src="image/user.png" alt=""/></a>
                 <a href="#"><img src="image/cart.png" alt=""/></a>
@@ -14,12 +14,20 @@ const createNav = () => {
             
         </div>
         <ul class="link-container">
-            <li class="link-items"><a href="#" class="link">Home</a></li>
+            <li class="link-items"><a href="#" onclick="homePage()" class="link">Home</a></li>
             <li class="link-items"><a href="#" class="link">Men</a></li>
             <li class="link-items"><a href="#" class="link">Women</a></li>
             <li class="link-items"><a href="#" class="link">Kids</a></li>
         </ul>
      `;
+};
+
+function searchPage(){
+    window.location.href = 'search.html';
+};
+
+function homePage(){
+    window.location.href = 'index.html';
 };
 
 createNav();

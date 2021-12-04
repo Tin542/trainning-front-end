@@ -28,11 +28,11 @@
         <div class="product-card">
           <div class="product-image">
             <span class="discount-tag">50% off</span>
-            <img src="image/card1.png" class="product-thumb" alt="" />
+            <img src="image/card1.png" class="product-thumb" alt="" onclick="changePage()" id="changePage" />
             <button class="card-btn">Add to wishlist</button>
           </div>
           <div class="product-info">
-            <h2 class="product-brand">Brand</h2>
+            <h2><a href="#" class="product-brand" onclick="changePage()">Brand</a></h2>
             <p class="product-short-des">a short description</p>
             <span class="price">$20</span><span class="actual-price">$40</span>
           </div>
@@ -361,6 +361,11 @@
       
     </footer>
 
+    <script>
+      function changePage(){
+        window.location.href = 'product.html';
+      }
+    </script>
     <script src="js/nav.js"></script>
     <script src="js/home.js"></script>
     <script src="js/footer.js"></script>
